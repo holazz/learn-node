@@ -1,0 +1,27 @@
+{
+  "name": "learn-node",
+  "version": "1.0.0",
+  "packageManager": "pnpm@6.32.6",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holazz/learn-node.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./index.mjs",
+    "lint": "eslint ."
+  },
+  "bugs": {
+    "url": "https://github.com/holazz/learn-node/issues"
+  },
+  "homepage": "https://github.com/holazz/learn-node#readme",
+  "devDependencies": {
+    "@holazz/eslint-config": "^1.0.1",
+    "eslint": "^8.13.0",
+    "typescript": "^4.6.3"
+  }
+}

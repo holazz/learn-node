@@ -1,0 +1,6 @@
+{
+  "extends": "@holazz",
+  "rules": {
+    "no-console": "off"
+  }
+}
