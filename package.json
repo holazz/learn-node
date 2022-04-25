@@ -13,7 +13,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node ./index.mjs",
-    "start":"nodemon ./http/index.mjs"
+    "start": "nodemon ./http/index.mjs"
   },
   "bugs": {
     "url": "https://github.com/holazz/learn-node/issues"
