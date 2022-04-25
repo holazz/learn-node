@@ -13,7 +13,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node ./index.mjs",
-    "lint": "eslint ."
+    "start":"nodemon ./http/index.mjs"
   },
   "bugs": {
     "url": "https://github.com/holazz/learn-node/issues"
@@ -22,6 +22,7 @@
   "devDependencies": {
     "@holazz/eslint-config": "^1.0.1",
     "eslint": "^8.13.0",
+    "nodemon": "^2.0.15",
     "typescript": "^4.6.3"
   }
 }
