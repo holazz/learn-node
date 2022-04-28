@@ -107,6 +107,17 @@ try {
   console.log(e.message)
 }
 
+// 读取文件和目录信息
+try {
+  const list = await fsp.readdir('./tmp')
+  for (const item of list) {
+    const stats = await fsp.stat(`./tmp/${item}`)
+    console.log(`${item} is a ${stats.isDirectory() ? 'directory' : 'file'}`)
+  }
+} catch (e) {
+  console.log(e.message)
+}
+
 // 真实路径
 try {
   console.log(await fsp.realpath('./tmp/2-copy.txt'))
