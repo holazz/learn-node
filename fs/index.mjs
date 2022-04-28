@@ -142,6 +142,7 @@ try {
 }
 
 // 监视文件或目录的变化
+// 优先使用 watchFile
 try {
   console.log(await fsp.watch('./tmp/2.txt'))
 } catch (e) {
